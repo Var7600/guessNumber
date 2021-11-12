@@ -11,6 +11,14 @@ To play this game on your OS you must have a base linux distribution with `bash`
 ```bash
 bash --version or echo $BASH_VERSION
 ```
+and you need to install figlet with this command on your terminal
+ 
+```
+sudo apt install figlet
+```
+figlet command makes turns ordinal terminal text into big
+fancy letters , references
+[figlet](https://www.linux.com/training-tutorials/linux-tips-fun-figlet-and-toilet-commands/)
 
 ### How to use the Script
 
