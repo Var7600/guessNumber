@@ -55,7 +55,8 @@ echo -e $NORMAL
 echo -e "$GRENN hey!i'm the computer can you guess my number?between: 0 and $next (number  of try : $numberTry )$NORMAL"
 
 #INPUT
-read answer
+
+read -p "?->" answer
 
 while [ $answer -ne $number ] && [ $end -ne -1 ];do
 
@@ -95,7 +96,7 @@ fi
 ##TRY AGAIN
 echo -e "$RED try again,you have $((numberTry - compteur)) tries left"
 echo -e $guest
-read answer
+read -p "?->" answer
 fi
 done
 
