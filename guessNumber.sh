@@ -29,7 +29,7 @@ try=1
 #essai="$RED $numberTry Tries YOU LOST $NORMAL "
 quit="$GRENN YOU QUIT, BYE!\n $NORMAL"
 win="YOU, WIN "
-guest="$GRENN Take another guess:$NORMAL"
+guest="$GRENN Try again:$NORMAL"
 petit="$PURPLE **YOUR NUMBER IS TOO LOW** $NORMAL  "
 grand="$PURPLE **YOUR NUMBER IS TOO HIGH** $NORMAL "
 
@@ -124,7 +124,7 @@ figlet -c GUESS NUMBER GAME
 echo "*********************************************************************************"
 echo -e "$NORMAL " 
 
-goal="$GRENN//////////////////////////////////////////////////////////////////////////////////////////\nthis game is guess the number , the computer chooses a Positive number and you have to find 3 tries  and at each level the number of  try increase by 1 \n
+goal="$GRENN//////////////////////////////////////////////////////////////////////////////////////////\nthis game is guess the number , the computer chooses a Positive number and you have to find it you have 3 tries  and at each level the number of  try increase by 1 \n
 Press: -1 to quit \n//////////////\
 ///////////////////////////////////////////////////////////////\n"
 
